@@ -29,7 +29,8 @@ with a widget:
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(new Center(child: new Text('Hello, world!')));
+  runApp(
+    new Center(child: new Text('Hello, world!')));
 }
 ```
 
@@ -222,7 +223,8 @@ widget is entirely optional but a good practice.
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(new MaterialApp(
+  runApp(
+    new MaterialApp(
     title: 'Flutter Tutorial',
     home: new TutorialHome(),
   ));
